@@ -22,7 +22,6 @@ export const GlobalProvider = ({ children }) => {
         };
         try {
             const res = await axios.get('/api/crowdsourcing/', config);
-            console.log(res);
             dispatch({
                 type: 'GET_CROWDSOURCEINFO',
                 payload: res.data.data,
