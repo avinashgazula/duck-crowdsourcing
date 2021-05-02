@@ -1,0 +1,30 @@
+{
+  "name": "duck-crowdsourcing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avinashgazula/duck-crowdsourcing.git"
+  },
+  "author": "Avinash Gazula",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.6",
+    "nodemon": "^2.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/avinashgazula/duck-crowdsourcing/issues"
+  },
+  "homepage": "https://github.com/avinashgazula/duck-crowdsourcing#readme"
+}
