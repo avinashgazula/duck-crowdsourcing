@@ -16,15 +16,15 @@ Database: A NoSQL MongoDB database is used because the requirements would work p
 
 # Database Model
 
-![Database Model](https://imgur.com/a/CMVg8d1 "Database Model")
+[Imgur](https://imgur.com/YAsmcMq)
 
-![Database Model](https://imgur.com/a/LMMAftQ "Database Model")
+[Imgur](https://imgur.com/sM6Z5Kb)
 
 The MongoDB clusters are hosted on multiple availability zones on AWS and a Virtual Private Cloud (VPC) is used to access these resources and MongoDB Atlas is used to monitor the cluster
 
 # High Level Component Diagram and Approach
 
-![Component Model](https://imgur.com/a/vKteoGq "Component Model")
+[Imgur](https://imgur.com/Hv5CALy)
 
 The react client application sends API requests to the Node Server which uses express and other third-party libraries. Mongoose is the MongoDB driver used to connect to the database. Axios is used to send API requests to the server. There are react components that allow submitting data which then send a POST request to the server, which connects to the MongoDB instance using a mongoose driver.
 
