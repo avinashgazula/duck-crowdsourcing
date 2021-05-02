@@ -7,6 +7,8 @@ export const Responses = () => {
 
     useEffect(() => {
         getCrowdsourcedInfo()
+
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
